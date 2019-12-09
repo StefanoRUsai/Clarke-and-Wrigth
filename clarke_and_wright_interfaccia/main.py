@@ -296,6 +296,10 @@ def exit1():
 
 
 if __name__ == '__main__':
+
+    label = Label(window, text="Gruppo H19")
+    label.pack()
+
     btn1 = Button(window, text='Open Folder', width=10, command=openDirectory)
     btn1.place(x=10, y=20)
 
@@ -314,5 +318,10 @@ if __name__ == '__main__':
 
     text_box = Text(window, bg='grey', width=67, height=5)
     text_box.place(x=10, y=200)
+
+    label2 = Label(window, text="I file di salvataggio sono creati nelle cartelle Risultati_parallelo\n"
+                                "e Risultati_seriale all'interno della cartella di progetto ")
+    label2.place(x=10, y=350)
+
 
     window.mainloop()
