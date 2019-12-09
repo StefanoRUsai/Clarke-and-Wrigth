@@ -319,8 +319,8 @@ if __name__ == '__main__':
     text_box = Text(window, bg='grey', width=67, height=5)
     text_box.place(x=10, y=200)
 
-    label2 = Label(window, text="I file di salvataggio sono creati nelle cartelle Risultati_parallelo\n"
-                                "e Risultati_seriale all'interno della cartella di progetto ")
+    label2 = Label(window, text="I file dei risultati sono stati salvati all'interno della cartella del progetto\n"
+                                "nelle cartelle Risultati_parallelo e Risultati_seriale.")
     label2.place(x=10, y=350)
 
 
