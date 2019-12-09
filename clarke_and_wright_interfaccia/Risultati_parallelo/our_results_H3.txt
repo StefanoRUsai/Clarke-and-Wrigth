@@ -1,0 +1,33 @@
+Text File with Solution Of H3
+
+PROBLEM DETAILS:
+Customers = 68 
+Max Load = 6100 
+
+SOLUTION DETAILS:
+Total cost = 389306.39922808047
+Error = 57.33
+Time = 0.19037485122680664:
+
+Routes of the Solution = 4:
+
+ROUTE 1:
+Cost = 111772.20098771012:
+Vertex sequence: 
+[0, 32, 41, 54, 42, 35, 27, 67, 25, 62, 39, 24, 64, 10, 23, 21, 2, 6, 18, 0]:
+
+ROUTE 2:
+Cost = 81709.90300933973:
+Vertex sequence: 
+[0, 34, 50, 56, 58, 26, 36, 52, 46, 38, 44, 57, 16, 3, 22, 12, 1, 19, 0]:
+
+ROUTE 3:
+Cost = 104151.94364946574:
+Vertex sequence: 
+[0, 29, 43, 68, 53, 65, 47, 59, 37, 55, 48, 40, 8, 9, 7, 4, 14, 15, 0]:
+
+ROUTE 4:
+Cost = 91672.35158156489:
+Vertex sequence: 
+[0, 30, 45, 66, 63, 60, 49, 28, 51, 31, 33, 61, 17, 11, 5, 20, 13, 0]:
+

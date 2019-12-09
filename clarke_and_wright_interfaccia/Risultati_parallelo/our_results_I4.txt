@@ -1,0 +1,43 @@
+Text File with Solution Of I4
+
+PROBLEM DETAILS:
+Customers = 90 
+Max Load = 5700 
+
+SOLUTION DETAILS:
+Total cost = 486665.91150986933
+Error = 64.42
+Time = 0.5080788135528564:
+
+Routes of the Solution = 6:
+
+ROUTE 1:
+Cost = 81284.19401798103:
+Vertex sequence: 
+[0, 57, 63, 59, 73, 48, 80, 50, 78, 35, 33, 9, 7, 30, 1, 3, 14, 0]:
+
+ROUTE 2:
+Cost = 84955.00739959258:
+Vertex sequence: 
+[0, 77, 83, 53, 87, 89, 51, 67, 84, 12, 44, 13, 22, 25, 10, 6, 11, 0]:
+
+ROUTE 3:
+Cost = 75403.67551446392:
+Vertex sequence: 
+[0, 56, 72, 49, 70, 71, 85, 55, 81, 15, 29, 2, 20, 36, 34, 19, 27, 0]:
+
+ROUTE 4:
+Cost = 89148.58177714478:
+Vertex sequence: 
+[0, 76, 86, 90, 62, 46, 82, 88, 38, 26, 37, 40, 31, 17, 4, 0]:
+
+ROUTE 5:
+Cost = 101546.94928136133:
+Vertex sequence: 
+[0, 58, 69, 74, 66, 65, 60, 79, 42, 8, 43, 16, 41, 39, 45, 0]:
+
+ROUTE 6:
+Cost = 54327.503519325706:
+Vertex sequence: 
+[0, 52, 61, 75, 47, 68, 64, 54, 28, 5, 21, 32, 24, 23, 18, 0]:
+

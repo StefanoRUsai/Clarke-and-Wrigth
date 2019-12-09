@@ -1,0 +1,48 @@
+Text File with Solution Of D3
+
+PROBLEM DETAILS:
+Customers = 38 
+Max Load = 2750 
+
+SOLUTION DETAILS:
+Total cost = 363507.4962878069
+Error = 51.79
+Time = 0.008806228637695312:
+
+Routes of the Solution = 7:
+
+ROUTE 0:
+Cost = 80384.83089853056:
+Vertex sequence: 
+[0, 13, 24, 36, 22, 20, 1, 6, 3, 8, 5, 0]:
+
+ROUTE 1:
+Cost = 85108.53022495031:
+Vertex sequence: 
+[0, 17, 27, 12, 37, 14, 33, 2, 7, 4, 0]:
+
+ROUTE 2:
+Cost = 61767.89940045395:
+Vertex sequence: 
+[0, 26, 32, 18, 38, 28, 0]:
+
+ROUTE 3:
+Cost = 40287.56132458399:
+Vertex sequence: 
+[0, 23, 31, 25, 10, 0]:
+
+ROUTE 4:
+Cost = 42772.3311254499:
+Vertex sequence: 
+[0, 19, 35, 16, 30, 0]:
+
+ROUTE 5:
+Cost = 27731.75492425958:
+Vertex sequence: 
+[0, 9, 11, 21, 15, 0]:
+
+ROUTE 6:
+Cost = 25454.58838957855:
+Vertex sequence: 
+[0, 29, 34, 0]:
+

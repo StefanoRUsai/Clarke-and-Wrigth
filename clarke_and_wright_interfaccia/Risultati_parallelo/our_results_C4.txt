@@ -1,0 +1,33 @@
+Text File with Solution Of C4
+
+PROBLEM DETAILS:
+Customers = 40 
+Max Load = 4150 
+
+SOLUTION DETAILS:
+Total cost = 348963.8581772497
+Error = 78.62
+Time = 0.03387117385864258:
+
+Routes of the Solution = 4:
+
+ROUTE 1:
+Cost = 93691.48308913705:
+Vertex sequence: 
+[0, 31, 40, 23, 21, 24, 3, 19, 8, 13, 12, 0]:
+
+ROUTE 2:
+Cost = 89950.36997327475:
+Vertex sequence: 
+[0, 25, 34, 32, 36, 29, 17, 5, 4, 18, 7, 0]:
+
+ROUTE 3:
+Cost = 92372.80608081183:
+Vertex sequence: 
+[0, 30, 35, 22, 39, 28, 1, 16, 6, 20, 10, 0]:
+
+ROUTE 4:
+Cost = 72949.19903402608:
+Vertex sequence: 
+[0, 27, 37, 33, 38, 26, 11, 14, 9, 2, 15, 0]:
+

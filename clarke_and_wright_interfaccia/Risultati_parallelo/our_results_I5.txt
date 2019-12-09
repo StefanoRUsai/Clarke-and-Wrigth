@@ -1,0 +1,48 @@
+Text File with Solution Of I5
+
+PROBLEM DETAILS:
+Customers = 90 
+Max Load = 5700 
+
+SOLUTION DETAILS:
+Total cost = 493904.93238589773
+Error = 63.96
+Time = 0.4890129566192627:
+
+Routes of the Solution = 7:
+
+ROUTE 1:
+Cost = 85439.81139567235:
+Vertex sequence: 
+[0, 57, 63, 59, 73, 48, 80, 81, 15, 29, 2, 20, 34, 18, 28, 0]:
+
+ROUTE 2:
+Cost = 68640.97023249189:
+Vertex sequence: 
+[0, 77, 83, 53, 87, 89, 51, 67, 25, 44, 22, 37, 16, 17, 24, 0]:
+
+ROUTE 3:
+Cost = 64213.30849587403:
+Vertex sequence: 
+[0, 56, 72, 49, 70, 71, 85, 55, 41, 10, 39, 6, 19, 14, 27, 0]:
+
+ROUTE 4:
+Cost = 78491.52908353366:
+Vertex sequence: 
+[0, 76, 86, 90, 62, 46, 82, 33, 9, 7, 36, 45, 23, 0]:
+
+ROUTE 5:
+Cost = 62749.16056171249:
+Vertex sequence: 
+[0, 58, 69, 74, 47, 88, 79, 38, 42, 26, 8, 5, 21, 0]:
+
+ROUTE 6:
+Cost = 66153.4901098192:
+Vertex sequence: 
+[0, 52, 61, 75, 65, 50, 78, 35, 3, 30, 1, 4, 11, 0]:
+
+ROUTE 7:
+Cost = 68216.66250679406:
+Vertex sequence: 
+[0, 60, 68, 66, 64, 54, 84, 12, 13, 43, 40, 31, 32, 0]:
+

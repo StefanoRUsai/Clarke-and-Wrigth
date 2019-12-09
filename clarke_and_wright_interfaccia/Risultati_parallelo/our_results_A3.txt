@@ -1,0 +1,33 @@
+Text File with Solution Of A3
+
+PROBLEM DETAILS:
+Customers = 25 
+Max Load = 4050 
+
+SOLUTION DETAILS:
+Total cost = 207239.45878956158
+Error = 26.83
+Time = 0.01070094108581543:
+
+Routes of the Solution = 4:
+
+ROUTE 1:
+Cost = 62730.79671573382:
+Vertex sequence: 
+[0, 10, 12, 14, 21, 16, 4, 1, 0]:
+
+ROUTE 2:
+Cost = 63919.91568142656:
+Vertex sequence: 
+[0, 19, 23, 6, 7, 18, 3, 0]:
+
+ROUTE 3:
+Cost = 43153.11909831518:
+Vertex sequence: 
+[0, 13, 25, 8, 15, 11, 2, 0]:
+
+ROUTE 4:
+Cost = 37435.62729408601:
+Vertex sequence: 
+[0, 20, 22, 24, 9, 17, 5, 0]:
+

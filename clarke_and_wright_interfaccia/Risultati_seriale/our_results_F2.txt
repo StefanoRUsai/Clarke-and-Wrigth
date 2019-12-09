@@ -1,0 +1,48 @@
+Text File with Solution Of F2
+
+PROBLEM DETAILS:
+Customers = 60 
+Max Load = 3000 
+
+SOLUTION DETAILS:
+Total cost = 459834.01034827856
+Error = 73.38
+Time = 0.02530503273010254:
+
+Routes of the Solution = 7:
+
+ROUTE 0:
+Cost = 97522.41130014516:
+Vertex sequence: 
+[0, 45, 53, 48, 42, 34, 40, 25, 15, 19, 17, 10, 12, 0]:
+
+ROUTE 1:
+Cost = 83159.09077016979:
+Vertex sequence: 
+[0, 49, 50, 54, 59, 43, 33, 26, 5, 8, 27, 7, 14, 0]:
+
+ROUTE 2:
+Cost = 57829.99162279944:
+Vertex sequence: 
+[0, 38, 51, 37, 46, 44, 16, 11, 22, 28, 0]:
+
+ROUTE 3:
+Cost = 88006.4950555141:
+Vertex sequence: 
+[0, 35, 39, 56, 47, 55, 31, 23, 4, 30, 24, 18, 0]:
+
+ROUTE 4:
+Cost = 72770.75478410051:
+Vertex sequence: 
+[0, 32, 60, 58, 13, 6, 3, 21, 29, 0]:
+
+ROUTE 5:
+Cost = 40281.38379813744:
+Vertex sequence: 
+[0, 36, 52, 2, 20, 1, 9, 0]:
+
+ROUTE 6:
+Cost = 20263.883017412172:
+Vertex sequence: 
+[0, 41, 57, 0]:
+

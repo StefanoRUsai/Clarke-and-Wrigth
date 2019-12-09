@@ -1,0 +1,48 @@
+Text File with Solution Of B1
+
+PROBLEM DETAILS:
+Customers = 30 
+Max Load = 1600 
+
+SOLUTION DETAILS:
+Total cost = 337632.6248012161
+Error = 41.22
+Time = 0.0091400146484375:
+
+Routes of the Solution = 7:
+
+ROUTE 1:
+Cost = 61428.42267338072:
+Vertex sequence: 
+[0, 18, 23, 17, 7, 1, 0]:
+
+ROUTE 2:
+Cost = 48535.215347770274:
+Vertex sequence: 
+[0, 20, 30, 16, 10, 8, 0]:
+
+ROUTE 3:
+Cost = 42850.89310836518:
+Vertex sequence: 
+[0, 11, 25, 26, 6, 3, 0]:
+
+ROUTE 4:
+Cost = 44943.96427175787:
+Vertex sequence: 
+[0, 14, 19, 13, 5, 0]:
+
+ROUTE 5:
+Cost = 45725.060328456486:
+Vertex sequence: 
+[0, 27, 29, 21, 4, 0]:
+
+ROUTE 6:
+Cost = 58239.45812986326:
+Vertex sequence: 
+[0, 24, 28, 12, 2, 0]:
+
+ROUTE 7:
+Cost = 35909.61094162237:
+Vertex sequence: 
+[0, 15, 22, 9, 0]:
+

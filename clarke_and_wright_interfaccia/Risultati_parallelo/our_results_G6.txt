@@ -1,0 +1,33 @@
+Text File with Solution Of G6
+
+PROBLEM DETAILS:
+Customers = 57 
+Max Load = 8000 
+
+SOLUTION DETAILS:
+Total cost = 523943.91183514014
+Error = 145.46
+Time = 0.11503171920776367:
+
+Routes of the Solution = 4:
+
+ROUTE 1:
+Cost = 128468.65766321082:
+Vertex sequence: 
+[0, 17, 28, 27, 35, 48, 42, 37, 20, 34, 25, 16, 46, 3, 12, 10, 0]:
+
+ROUTE 2:
+Cost = 139787.6481727217:
+Vertex sequence: 
+[0, 31, 55, 24, 40, 22, 29, 32, 47, 52, 41, 19, 11, 1, 4, 0]:
+
+ROUTE 3:
+Cost = 119197.61248870069:
+Vertex sequence: 
+[0, 21, 45, 51, 33, 23, 14, 44, 15, 18, 56, 43, 8, 7, 6, 0]:
+
+ROUTE 4:
+Cost = 136489.993510507:
+Vertex sequence: 
+[0, 30, 36, 26, 38, 39, 50, 49, 13, 53, 54, 57, 2, 5, 9, 0]:
+

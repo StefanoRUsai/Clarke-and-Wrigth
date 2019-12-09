@@ -1,0 +1,43 @@
+Text File with Solution Of G4
+
+PROBLEM DETAILS:
+Customers = 57 
+Max Load = 5300 
+
+SOLUTION DETAILS:
+Total cost = 375026.43370652787
+Error = 61.29
+Time = 0.02609419822692871:
+
+Routes of the Solution = 6:
+
+ROUTE 0:
+Cost = 125374.98223227305:
+Vertex sequence: 
+[0, 17, 28, 40, 26, 51, 24, 16, 41, 52, 18, 15, 11, 2, 3, 12, 1, 5, 10, 6, 4, 7, 9, 0]:
+
+ROUTE 1:
+Cost = 58804.6017055539:
+Vertex sequence: 
+[0, 31, 55, 25, 34, 13, 44, 50, 20, 8, 0]:
+
+ROUTE 2:
+Cost = 67531.67071373505:
+Vertex sequence: 
+[0, 21, 45, 56, 54, 53, 32, 14, 42, 39, 23, 29, 0]:
+
+ROUTE 3:
+Cost = 65113.002887079274:
+Vertex sequence: 
+[0, 30, 36, 33, 38, 22, 48, 37, 57, 43, 46, 0]:
+
+ROUTE 4:
+Cost = 33753.16633148186:
+Vertex sequence: 
+[0, 47, 49, 19, 0]:
+
+ROUTE 5:
+Cost = 24449.009836404774:
+Vertex sequence: 
+[0, 27, 35, 0]:
+

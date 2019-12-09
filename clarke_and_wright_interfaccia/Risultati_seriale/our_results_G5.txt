@@ -1,0 +1,38 @@
+Text File with Solution Of G5
+
+PROBLEM DETAILS:
+Customers = 57 
+Max Load = 6400 
+
+SOLUTION DETAILS:
+Total cost = 360910.25036765664
+Error = 62.77
+Time = 0.032399892807006836:
+
+Routes of the Solution = 5:
+
+ROUTE 0:
+Cost = 132083.34844226757:
+Vertex sequence: 
+[0, 17, 28, 27, 35, 33, 38, 22, 48, 23, 39, 2, 11, 8, 3, 12, 1, 5, 10, 6, 4, 7, 9, 0]:
+
+ROUTE 1:
+Cost = 70695.85206118974:
+Vertex sequence: 
+[0, 31, 55, 24, 51, 26, 40, 16, 41, 52, 18, 34, 15, 54, 0]:
+
+ROUTE 2:
+Cost = 76113.01747867653:
+Vertex sequence: 
+[0, 21, 45, 25, 56, 53, 13, 44, 50, 20, 32, 14, 42, 0]:
+
+ROUTE 3:
+Cost = 49275.542376141755:
+Vertex sequence: 
+[0, 30, 36, 19, 43, 57, 29, 37, 46, 0]:
+
+ROUTE 4:
+Cost = 32742.490009381036:
+Vertex sequence: 
+[0, 47, 49, 0]:
+

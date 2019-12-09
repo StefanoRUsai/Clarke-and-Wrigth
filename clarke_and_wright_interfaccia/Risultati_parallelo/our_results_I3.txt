@@ -1,0 +1,38 @@
+Text File with Solution Of I3
+
+PROBLEM DETAILS:
+Customers = 90 
+Max Load = 5700 
+
+SOLUTION DETAILS:
+Total cost = 504598.6906668633
+Error = 71.34
+Time = 0.5146329402923584:
+
+Routes of the Solution = 5:
+
+ROUTE 1:
+Cost = 99236.95975227276:
+Vertex sequence: 
+[0, 57, 63, 59, 73, 48, 80, 50, 68, 64, 42, 26, 37, 43, 13, 44, 12, 22, 27, 0]:
+
+ROUTE 2:
+Cost = 122142.75521064903:
+Vertex sequence: 
+[0, 77, 83, 53, 87, 89, 51, 67, 84, 88, 38, 9, 30, 20, 15, 19, 45, 25, 31, 14, 0]:
+
+ROUTE 3:
+Cost = 87286.31151403469:
+Vertex sequence: 
+[0, 56, 72, 49, 70, 71, 85, 55, 81, 78, 35, 3, 1, 36, 34, 6, 41, 16, 17, 0]:
+
+ROUTE 4:
+Cost = 85480.51891554729:
+Vertex sequence: 
+[0, 76, 86, 90, 62, 46, 82, 60, 65, 54, 28, 8, 5, 21, 32, 24, 23, 18, 11, 0]:
+
+ROUTE 5:
+Cost = 110452.14527435949:
+Vertex sequence: 
+[0, 58, 69, 74, 61, 52, 75, 66, 47, 79, 33, 7, 2, 29, 10, 39, 4, 40, 0]:
+

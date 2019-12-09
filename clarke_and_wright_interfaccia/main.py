@@ -1,14 +1,21 @@
 from os.path import dirname
+import pyximport; pyximport.install()
 from tkinter import *
 from tkinter.ttk import *
 from tkinter.filedialog import askopenfile, askdirectory
-from clarke_and_wright.utils import *
+from tkinter.filedialog import asksaveasfile
+from tkinter import ttk
+import os
+from utils import *
 import time
 from os import getcwd, listdir
 import pandas as pd
 
-import os
+if not os.path.isdir('Risultati_seriale'):
+    os.system('mkdir Risultati_seriale')
 
+if not os.path.isdir('Risultati_parallelo'):
+    os.system('mkdir Risultati_parallelo')
 window = Tk()
 window.geometry('500x500')
 window.title('Clarke and Wright')
@@ -46,8 +53,8 @@ def openDirectory():
         only_file = False
 
 def save():
-    '''funzione da finire da vedere'''
-    df.to_csv('file.csv')
+    files = [('Text Document', '*.txt')]
+    file = asksaveasfile(filetypes = files, defaultextension = files)
 
 def run_Parallel():
     global df
@@ -67,7 +74,7 @@ def run_Parallel():
             folder_rpa_solutions = 'RPA_Solutions/'
             path = folder_instances + e + '.txt'
             path_solutions = folder_rpa_solutions + 'Detailed_Solution_' + e + '.txt'
-
+            start_instances = time.time()
             count, number_of_customers, one, number_of_vehicles, \
             vect_cord, vect_domanda, vect_carico, vec_b, vec_l, capacity = parser_instance(path)
 
@@ -82,6 +89,24 @@ def run_Parallel():
                                     number_of_customers, capacity, number_of_vehicles)  # funzione void
             tot_cost = sum([x.cost for x in list_vehicle])
             record[e] = round(((tot_cost * 100) / extract_total_cost_BP(path_solutions)) - 100, 2)
+            duration_instances = time.time() - start_instances
+            with open(f'Risultati_parallelo/our_results_{e}.txt', "w") as the_file:
+                the_file.write(f"Text File with Solution Of {e}\n\n")
+                the_file.write(f"PROBLEM DETAILS:\n")
+                the_file.write(f"Customers = {number_of_customers} \n")
+                the_file.write(f"Max Load = {capacity} \n\n")
+
+                the_file.write(f"SOLUTION DETAILS:\n")
+                the_file.write(f"Total cost = {tot_cost}\n")
+                the_file.write(f"Error = {round(((tot_cost * 100) / extract_total_cost_BP(path_solutions)) - 100, 2)}\n")
+                the_file.write(f"Time = {duration_instances}:\n\n")
+                the_file.write(f"Routes of the Solution = {len(list_vehicle)}:\n\n")
+
+                for i,e in enumerate(list_vehicle):
+                    the_file.write(f"ROUTE {i+1}:\n")
+                    the_file.write(f"Cost = {e.cost}:\n")
+                    the_file.write(f"Vertex sequence: \n"
+                                   f"{e.route}:\n\n")
 
 
         duration = time.time() - start
@@ -122,6 +147,23 @@ def run_Parallel():
         tot_cost = sum([x.cost for x in list_vehicle])
         duration = time.time() - start
 
+        with open(f'Risultati_parallelo/our_results_{n_instance}.txt', "w") as the_file:
+            the_file.write(f"Text File with Solution Of {e}\n\n")
+            the_file.write(f"PROBLEM DETAILS:\n")
+            the_file.write(f"Customers = {number_of_customers} \n")
+            the_file.write(f"Max Load = {capacity} \n\n")
+
+            the_file.write(f"SOLUTION DETAILS:\n")
+            the_file.write(f"Total cost = {tot_cost}\n")
+            the_file.write(f"Time = {duration}:\n\n")
+            the_file.write(f"Error = {round(((tot_cost * 100) / extract_total_cost_BP(path_solutions))-100 , 2)}\n")
+            the_file.write(f"Routes of the Solution = {len(list_vehicle)}:\n\n")
+            for i, e in enumerate(list_vehicle):
+                the_file.write(f"ROUTE {i}:\n")
+                the_file.write(f"Cost = {e.cost}:\n")
+                the_file.write(f"Vertex sequence: \n"
+                               f"{e.route}:\n\n")
+
 
         result = f'tempo di esecuzione {duration}\n' \
                  f'percentuale errore rispetto a best solution {round(((tot_cost * 100) / extract_total_cost_BP(path_solutions))-100 , 2)}'
@@ -145,17 +187,15 @@ def run_Serial():
         path_global = path_global + '/'
         instances = listdir(path_global)
         instances = [x for x in [(x.split('.'))[0] for x in instances] if len(x) == 2]
-        print(instances)
         record = {}
 
         start = time.time()
         for e in instances:
-            print('sono qui seriale')
             folder_instances = path_global
             folder_rpa_solutions = 'RPA_Solutions/'
             path = folder_instances + e + '.txt'
             path_solutions = folder_rpa_solutions + 'Detailed_Solution_' + e + '.txt'
-
+            start_instances = time.time()
             count, number_of_customers, one, number_of_vehicles, \
             vect_cord, vect_domanda, vect_carico, vec_b, vec_l, capacity = parser_instance(path)
 
@@ -169,6 +209,24 @@ def run_Serial():
                            capacity)  # funzione void
             tot_cost = sum([x.cost for x in list_vehicle])
             record[e] = round(((tot_cost * 100) / extract_total_cost_BP(path_solutions)) - 100, 2)
+            duration_instances = time.time() - start_instances
+            with open(f'Risultati_seriale/our_results_{e}.txt', "w") as the_file:
+                the_file.write(f"Text File with Solution Of {e}\n\n")
+                the_file.write(f"PROBLEM DETAILS:\n")
+                the_file.write(f"Customers = {number_of_customers} \n")
+                the_file.write(f"Max Load = {capacity} \n\n")
+
+                the_file.write(f"SOLUTION DETAILS:\n")
+                the_file.write(f"Total cost = {tot_cost}\n")
+                the_file.write(f"Error = {round(((tot_cost * 100) / extract_total_cost_BP(path_solutions)) - 100, 2)}\n")
+                the_file.write(f"Time = {duration_instances}:\n\n")
+                the_file.write(f"Routes of the Solution = {len(list_vehicle)}:\n\n")
+
+                for i, e in enumerate(list_vehicle):
+                    the_file.write(f"ROUTE {i}:\n")
+                    the_file.write(f"Cost = {e.cost}:\n")
+                    the_file.write(f"Vertex sequence: \n"
+                                   f"{e.route}:\n\n")
 
         duration = time.time() - start
         tot_errore = 0
@@ -208,6 +266,23 @@ def run_Serial():
                        capacity)  # funzione void
         tot_cost = sum([x.cost for x in list_vehicle])
         duration = time.time() - start
+        with open(f'Risultati_seriale/our_results_{n_instance}.txt', "w") as the_file:
+            the_file.write(f"Text File with Solution Of {n_instance}\n\n")
+            the_file.write(f"PROBLEM DETAILS:\n")
+            the_file.write(f"Customers = {number_of_customers} \n")
+            the_file.write(f"Max Load = {capacity} \n\n")
+
+            the_file.write(f"SOLUTION DETAILS:\n")
+            the_file.write(f"Total cost = {tot_cost}\n")
+            the_file.write(f"Error = {round(((tot_cost * 100) / extract_total_cost_BP(path_solutions))-100 , 2)}\n")
+            the_file.write(f"Time = {duration}:\n\n")
+            the_file.write(f"Routes of the Solution = {len(list_vehicle)}:\n\n")
+
+            for i, e in enumerate(list_vehicle):
+                the_file.write(f"ROUTE {i}:\n")
+                the_file.write(f"Cost = {e.cost}:\n")
+                the_file.write(f"Vertex sequence: \n")
+                the_file.write(f"{e.route}:\n\n")
 
 
         result = f'tempo di esecuzione {duration}\n' \
@@ -215,11 +290,6 @@ def run_Serial():
         text_box.delete('1.0', END)
         text_box.insert("end-1c", result)
 
-        # list_record = []
-        # for e in record.keys():
-        #     list_record.append([e, record[e]])
-        # df = pd.DataFrame(list_record, columns=['Instances', 'Error'])
-        # df.to_csv('seriale.csv')
 
 def exit1():
     exit()
@@ -236,10 +306,7 @@ if __name__ == '__main__':
     btn3.place(x=350, y=70)
 
     btn7 = Button(window, text='Run Serial', width=10, command=run_Serial)
-    btn7.place(x=250, y=70)
-
-    btn4 = Button(window, text='Save', width=10, command=save)
-    btn4.place(x=350, y=95)
+    btn7.place(x=230, y=70)
 
     btn5 = Button(window, text='exit', width=10, command=exit1)
     btn5.place(x=350, y=400)

@@ -1,0 +1,38 @@
+Text File with Solution Of C2
+
+PROBLEM DETAILS:
+Customers = 40 
+Max Load = 2600 
+
+SOLUTION DETAILS:
+Total cost = 363570.9214364686
+Error = 69.09
+Time = 0.02660202980041504:
+
+Routes of the Solution = 5:
+
+ROUTE 1:
+Cost = 74864.3461453404:
+Vertex sequence: 
+[0, 31, 40, 23, 21, 13, 18, 12, 2, 0]:
+
+ROUTE 2:
+Cost = 79939.08499400667:
+Vertex sequence: 
+[0, 25, 34, 32, 26, 11, 5, 3, 10, 0]:
+
+ROUTE 3:
+Cost = 62987.17076953046:
+Vertex sequence: 
+[0, 30, 35, 22, 39, 1, 6, 9, 20, 0]:
+
+ROUTE 4:
+Cost = 70544.05302875616:
+Vertex sequence: 
+[0, 27, 37, 33, 38, 16, 17, 4, 7, 0]:
+
+ROUTE 5:
+Cost = 75236.26649883486:
+Vertex sequence: 
+[0, 24, 36, 29, 28, 14, 19, 8, 15, 0]:
+

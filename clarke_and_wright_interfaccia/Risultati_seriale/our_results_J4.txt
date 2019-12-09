@@ -1,0 +1,48 @@
+Text File with Solution Of J4
+
+PROBLEM DETAILS:
+Customers = 94 
+Max Load = 6600 
+
+SOLUTION DETAILS:
+Total cost = 482998.6012841689
+Error = 62.88
+Time = 0.1882627010345459:
+
+Routes of the Solution = 7:
+
+ROUTE 0:
+Cost = 133600.16455181432:
+Vertex sequence: 
+[0, 54, 86, 40, 81, 59, 63, 90, 87, 84, 70, 77, 19, 2, 6, 3, 5, 12, 1, 15, 7, 11, 10, 8, 18, 4, 0]:
+
+ROUTE 1:
+Cost = 95058.50861399842:
+Vertex sequence: 
+[0, 33, 82, 62, 44, 36, 35, 67, 66, 89, 85, 68, 27, 39, 69, 29, 9, 17, 16, 14, 13, 0]:
+
+ROUTE 2:
+Cost = 61269.17764313671:
+Vertex sequence: 
+[0, 30, 46, 92, 83, 71, 65, 47, 61, 72, 34, 60, 0]:
+
+ROUTE 3:
+Cost = 55847.09049351802:
+Vertex sequence: 
+[0, 22, 37, 75, 91, 21, 49, 78, 23, 80, 28, 52, 24, 0]:
+
+ROUTE 4:
+Cost = 57887.957644430484:
+Vertex sequence: 
+[0, 55, 57, 94, 79, 53, 93, 51, 58, 45, 42, 0]:
+
+ROUTE 5:
+Cost = 50436.080248351675:
+Vertex sequence: 
+[0, 38, 64, 25, 43, 76, 20, 41, 88, 73, 74, 26, 50, 0]:
+
+ROUTE 6:
+Cost = 28899.62208891926:
+Vertex sequence: 
+[0, 32, 48, 31, 56, 0]:
+

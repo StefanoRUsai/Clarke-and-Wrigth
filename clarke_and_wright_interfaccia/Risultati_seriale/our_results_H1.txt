@@ -1,0 +1,43 @@
+Text File with Solution Of H1
+
+PROBLEM DETAILS:
+Customers = 68 
+Max Load = 4000 
+
+SOLUTION DETAILS:
+Total cost = 400029.9478898643
+Error = 48.75
+Time = 0.036570072174072266:
+
+Routes of the Solution = 6:
+
+ROUTE 0:
+Cost = 90901.65941329385:
+Vertex sequence: 
+[0, 32, 41, 54, 66, 42, 63, 60, 68, 2, 20, 6, 4, 7, 9, 14, 13, 18, 0]:
+
+ROUTE 1:
+Cost = 76696.98829825505:
+Vertex sequence: 
+[0, 34, 50, 56, 25, 67, 62, 39, 27, 16, 3, 22, 12, 1, 19, 8, 0]:
+
+ROUTE 2:
+Cost = 104920.6548206275:
+Vertex sequence: 
+[0, 29, 43, 35, 57, 24, 44, 46, 38, 47, 37, 40, 15, 17, 11, 23, 21, 5, 10, 0]:
+
+ROUTE 3:
+Cost = 59403.6857552725:
+Vertex sequence: 
+[0, 30, 45, 53, 65, 59, 55, 48, 31, 28, 0]:
+
+ROUTE 4:
+Cost = 40830.04120661049:
+Vertex sequence: 
+[0, 26, 58, 64, 61, 49, 51, 0]:
+
+ROUTE 5:
+Cost = 27276.918395804933:
+Vertex sequence: 
+[0, 36, 52, 33, 0]:
+

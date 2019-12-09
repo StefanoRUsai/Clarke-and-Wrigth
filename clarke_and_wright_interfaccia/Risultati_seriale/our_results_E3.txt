@@ -1,0 +1,33 @@
+Text File with Solution Of E3
+
+PROBLEM DETAILS:
+Customers = 45 
+Max Load = 5225 
+
+SOLUTION DETAILS:
+Total cost = 322771.10936933476
+Error = 56.19
+Time = 0.011216878890991211:
+
+Routes of the Solution = 4:
+
+ROUTE 0:
+Cost = 121595.59787739461:
+Vertex sequence: 
+[0, 18, 38, 17, 22, 40, 32, 27, 16, 19, 7, 3, 9, 6, 12, 4, 1, 15, 5, 11, 10, 0]:
+
+ROUTE 1:
+Cost = 141964.8282222778:
+Vertex sequence: 
+[0, 20, 29, 36, 41, 25, 35, 30, 45, 31, 28, 37, 21, 14, 8, 2, 13, 0]:
+
+ROUTE 2:
+Cost = 33825.023448151485:
+Vertex sequence: 
+[0, 26, 42, 43, 23, 33, 34, 44, 0]:
+
+ROUTE 3:
+Cost = 25385.65982151084:
+Vertex sequence: 
+[0, 24, 39, 0]:
+

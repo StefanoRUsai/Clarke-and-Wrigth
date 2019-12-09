@@ -1,0 +1,73 @@
+Text File with Solution Of D1
+
+PROBLEM DETAILS:
+Customers = 38 
+Max Load = 1700 
+
+SOLUTION DETAILS:
+Total cost = 454030.4944602435
+Error = 40.77
+Time = 0.009153127670288086:
+
+Routes of the Solution = 12:
+
+ROUTE 0:
+Cost = 120111.92925668848:
+Vertex sequence: 
+[0, 13, 24, 20, 33, 2, 7, 5, 1, 0]:
+
+ROUTE 1:
+Cost = 48509.69119431969:
+Vertex sequence: 
+[0, 17, 27, 12, 3, 6, 0]:
+
+ROUTE 2:
+Cost = 63014.689092124565:
+Vertex sequence: 
+[0, 26, 32, 15, 8, 4, 0]:
+
+ROUTE 3:
+Cost = 25026.390880075756:
+Vertex sequence: 
+[0, 23, 31, 0]:
+
+ROUTE 4:
+Cost = 24871.283131998276:
+Vertex sequence: 
+[0, 19, 35, 0]:
+
+ROUTE 5:
+Cost = 25294.315008029957:
+Vertex sequence: 
+[0, 9, 11, 16, 0]:
+
+ROUTE 6:
+Cost = 25454.58838957855:
+Vertex sequence: 
+[0, 29, 34, 0]:
+
+ROUTE 7:
+Cost = 22356.37404534576:
+Vertex sequence: 
+[0, 14, 30, 0]:
+
+ROUTE 8:
+Cost = 21775.4122544067:
+Vertex sequence: 
+[0, 22, 36, 0]:
+
+ROUTE 9:
+Cost = 24108.49445832157:
+Vertex sequence: 
+[0, 25, 38, 0]:
+
+ROUTE 10:
+Cost = 35582.96162105119:
+Vertex sequence: 
+[0, 10, 28, 18, 0]:
+
+ROUTE 11:
+Cost = 17924.365128302965:
+Vertex sequence: 
+[0, 21, 37, 0]:
+

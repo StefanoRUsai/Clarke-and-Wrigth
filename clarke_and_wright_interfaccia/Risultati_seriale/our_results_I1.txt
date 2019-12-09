@@ -1,0 +1,63 @@
+Text File with Solution Of I1
+
+PROBLEM DETAILS:
+Customers = 90 
+Max Load = 3000 
+
+SOLUTION DETAILS:
+Total cost = 631602.828064401
+Error = 80.33
+Time = 0.08763504028320312:
+
+Routes of the Solution = 10:
+
+ROUTE 0:
+Cost = 100524.27874072375:
+Vertex sequence: 
+[0, 57, 63, 48, 46, 90, 89, 41, 15, 29, 2, 30, 9, 0]:
+
+ROUTE 1:
+Cost = 62577.758719801175:
+Vertex sequence: 
+[0, 77, 83, 53, 87, 49, 10, 39, 6, 19, 20, 1, 0]:
+
+ROUTE 2:
+Cost = 71102.33412935596:
+Vertex sequence: 
+[0, 56, 72, 51, 67, 84, 85, 79, 38, 42, 26, 8, 5, 0]:
+
+ROUTE 3:
+Cost = 74747.56950563019:
+Vertex sequence: 
+[0, 76, 86, 80, 82, 88, 64, 28, 23, 35, 33, 21, 0]:
+
+ROUTE 4:
+Cost = 65503.12708427993:
+Vertex sequence: 
+[0, 58, 69, 74, 75, 47, 50, 7, 36, 34, 45, 0]:
+
+ROUTE 5:
+Cost = 69032.24909066198:
+Vertex sequence: 
+[0, 52, 61, 54, 78, 81, 71, 55, 4, 25, 12, 44, 0]:
+
+ROUTE 6:
+Cost = 66298.00606701348:
+Vertex sequence: 
+[0, 60, 68, 3, 18, 32, 24, 13, 0]:
+
+ROUTE 7:
+Cost = 48094.74838859454:
+Vertex sequence: 
+[0, 59, 73, 14, 16, 40, 22, 31, 0]:
+
+ROUTE 8:
+Cost = 47151.777824030134:
+Vertex sequence: 
+[0, 62, 70, 43, 37, 17, 27, 11, 0]:
+
+ROUTE 9:
+Cost = 26570.978514309947:
+Vertex sequence: 
+[0, 65, 66, 0]:
+

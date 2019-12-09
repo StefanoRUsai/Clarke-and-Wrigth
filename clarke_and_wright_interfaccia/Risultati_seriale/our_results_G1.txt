@@ -1,0 +1,63 @@
+Text File with Solution Of G1
+
+PROBLEM DETAILS:
+Customers = 57 
+Max Load = 2700 
+
+SOLUTION DETAILS:
+Total cost = 530548.0943313959
+Error = 73.21
+Time = 0.03278803825378418:
+
+Routes of the Solution = 10:
+
+ROUTE 0:
+Cost = 115093.89415904671:
+Vertex sequence: 
+[0, 17, 28, 40, 26, 24, 54, 11, 2, 3, 12, 1, 10, 0]:
+
+ROUTE 1:
+Cost = 81658.92871127055:
+Vertex sequence: 
+[0, 31, 55, 52, 56, 8, 7, 5, 6, 4, 0]:
+
+ROUTE 2:
+Cost = 63133.90754954474:
+Vertex sequence: 
+[0, 21, 45, 51, 16, 41, 18, 46, 9, 0]:
+
+ROUTE 3:
+Cost = 52635.84167636196:
+Vertex sequence: 
+[0, 30, 36, 48, 22, 37, 0]:
+
+ROUTE 4:
+Cost = 37716.161536678934:
+Vertex sequence: 
+[0, 47, 49, 20, 32, 14, 0]:
+
+ROUTE 5:
+Cost = 45977.036490557584:
+Vertex sequence: 
+[0, 27, 35, 42, 57, 0]:
+
+ROUTE 6:
+Cost = 41582.62620497629:
+Vertex sequence: 
+[0, 23, 39, 29, 34, 0]:
+
+ROUTE 7:
+Cost = 37540.73741346211:
+Vertex sequence: 
+[0, 44, 50, 53, 25, 0]:
+
+ROUTE 8:
+Cost = 31881.651912716967:
+Vertex sequence: 
+[0, 33, 38, 19, 43, 0]:
+
+ROUTE 9:
+Cost = 23327.30867678012:
+Vertex sequence: 
+[0, 13, 15, 0]:
+

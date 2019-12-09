@@ -1,0 +1,38 @@
+Text File with Solution Of D4
+
+PROBLEM DETAILS:
+Customers = 38 
+Max Load = 4075 
+
+SOLUTION DETAILS:
+Total cost = 422945.8978951764
+Error = 105.48
+Time = 0.030560970306396484:
+
+Routes of the Solution = 5:
+
+ROUTE 1:
+Cost = 94950.18403690873:
+Vertex sequence: 
+[0, 13, 24, 36, 34, 10, 11, 2, 7, 0]:
+
+ROUTE 2:
+Cost = 87060.4462808187:
+Vertex sequence: 
+[0, 17, 27, 20, 12, 37, 14, 1, 5, 0]:
+
+ROUTE 3:
+Cost = 99253.19024979834:
+Vertex sequence: 
+[0, 26, 32, 22, 18, 28, 30, 3, 4, 0]:
+
+ROUTE 4:
+Cost = 75374.48092362448:
+Vertex sequence: 
+[0, 23, 31, 29, 33, 16, 21, 6, 0]:
+
+ROUTE 5:
+Cost = 66307.59640402613:
+Vertex sequence: 
+[0, 19, 35, 38, 25, 9, 15, 8, 0]:
+

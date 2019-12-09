@@ -1,0 +1,38 @@
+Text File with Solution Of G3
+
+PROBLEM DETAILS:
+Customers = 57 
+Max Load = 5300 
+
+SOLUTION DETAILS:
+Total cost = 384419.9410853601
+Error = 67.5
+Time = 0.034707069396972656:
+
+Routes of the Solution = 5:
+
+ROUTE 0:
+Cost = 132191.44415445314:
+Vertex sequence: 
+[0, 17, 28, 27, 35, 33, 38, 22, 48, 24, 6, 10, 5, 4, 7, 1, 12, 3, 2, 11, 8, 0]:
+
+ROUTE 1:
+Cost = 66041.60660666549:
+Vertex sequence: 
+[0, 31, 55, 52, 18, 34, 15, 44, 50, 9, 0]:
+
+ROUTE 2:
+Cost = 67416.29496994273:
+Vertex sequence: 
+[0, 21, 45, 51, 26, 40, 16, 41, 25, 56, 54, 53, 13, 0]:
+
+ROUTE 3:
+Cost = 68377.45090489315:
+Vertex sequence: 
+[0, 30, 36, 19, 43, 20, 32, 14, 42, 39, 37, 46, 0]:
+
+ROUTE 4:
+Cost = 50393.14444940553:
+Vertex sequence: 
+[0, 47, 49, 29, 23, 57, 0]:
+

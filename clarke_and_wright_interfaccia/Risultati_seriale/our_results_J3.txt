@@ -1,0 +1,43 @@
+Text File with Solution Of J3
+
+PROBLEM DETAILS:
+Customers = 94 
+Max Load = 8200 
+
+SOLUTION DETAILS:
+Total cost = 463055.28418586974
+Error = 65.84
+Time = 0.2018430233001709:
+
+Routes of the Solution = 6:
+
+ROUTE 0:
+Cost = 158939.20397017372:
+Vertex sequence: 
+[0, 54, 86, 40, 81, 59, 63, 90, 87, 84, 70, 77, 78, 23, 19, 2, 6, 3, 5, 12, 1, 15, 7, 11, 10, 8, 18, 4, 13, 9, 16, 0]:
+
+ROUTE 1:
+Cost = 85884.49125151831:
+Vertex sequence: 
+[0, 33, 82, 62, 44, 36, 35, 67, 66, 89, 85, 68, 27, 48, 32, 39, 69, 60, 45, 26, 14, 17, 0]:
+
+ROUTE 2:
+Cost = 60632.99051983825:
+Vertex sequence: 
+[0, 30, 46, 92, 83, 71, 65, 47, 61, 72, 34, 42, 25, 43, 76, 0]:
+
+ROUTE 3:
+Cost = 78883.06727385224:
+Vertex sequence: 
+[0, 22, 37, 75, 91, 21, 49, 80, 28, 52, 41, 20, 29, 51, 58, 88, 24, 0]:
+
+ROUTE 4:
+Cost = 49967.806633066444:
+Vertex sequence: 
+[0, 55, 57, 94, 79, 53, 93, 73, 74, 50, 31, 56, 0]:
+
+ROUTE 5:
+Cost = 28747.724537420774:
+Vertex sequence: 
+[0, 38, 64, 0]:
+

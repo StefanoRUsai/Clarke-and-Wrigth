@@ -1,0 +1,48 @@
+Text File with Solution Of I2
+
+PROBLEM DETAILS:
+Customers = 90 
+Max Load = 4000 
+
+SOLUTION DETAILS:
+Total cost = 498687.7325607491
+Error = 60.9
+Time = 0.08433771133422852:
+
+Routes of the Solution = 7:
+
+ROUTE 0:
+Cost = 103055.37577086511:
+Vertex sequence: 
+[0, 57, 63, 59, 73, 48, 46, 90, 49, 89, 41, 15, 29, 2, 20, 36, 9, 0]:
+
+ROUTE 1:
+Cost = 96779.48393823266:
+Vertex sequence: 
+[0, 77, 83, 53, 87, 51, 67, 84, 64, 42, 26, 8, 37, 43, 13, 16, 0]:
+
+ROUTE 2:
+Cost = 72336.6865107377:
+Vertex sequence: 
+[0, 56, 72, 70, 62, 71, 85, 55, 81, 6, 19, 10, 39, 4, 34, 30, 1, 0]:
+
+ROUTE 3:
+Cost = 73678.89169017575:
+Vertex sequence: 
+[0, 76, 86, 80, 82, 50, 88, 66, 79, 38, 28, 5, 21, 32, 24, 23, 0]:
+
+ROUTE 4:
+Cost = 75741.39888627666:
+Vertex sequence: 
+[0, 58, 69, 74, 75, 47, 65, 54, 78, 35, 33, 7, 3, 45, 14, 0]:
+
+ROUTE 5:
+Cost = 39896.095261774375:
+Vertex sequence: 
+[0, 52, 61, 22, 44, 12, 25, 40, 17, 0]:
+
+ROUTE 6:
+Cost = 37199.80050268688:
+Vertex sequence: 
+[0, 60, 68, 18, 31, 27, 11, 0]:
+
